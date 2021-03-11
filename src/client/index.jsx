@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Link } from 'react-router-dom';
 import { Route, Switch } from 'react-router';
+import { BookListPage } from "./BookListPage";
 
 function Application() {
   return (
