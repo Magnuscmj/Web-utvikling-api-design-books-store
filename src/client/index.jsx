@@ -4,7 +4,6 @@ import { BrowserRouter, Link } from 'react-router-dom';
 import { Route, Switch } from 'react-router';
 
 function Application() {
-
   return (
     <BrowserRouter>
       <Switch>
@@ -15,7 +14,7 @@ function Application() {
         <Route path={'/create'}>
           <h1>Create a new book</h1>
         </Route>
-        
+
         <Route path={'/create'}>
           <h1>Create a new book</h1>
         </Route>
